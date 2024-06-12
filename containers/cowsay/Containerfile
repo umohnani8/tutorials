@@ -1,0 +1,11 @@
+# Use an official fedora image
+FROM fedora
+
+# Use the fedora package manager to install cowsay
+RUN dnf install -y cowsay
+
+# Set the entrypoint to always run cowsay at start up
+ENTRYPOINT ["cowsay", "hello"]
+
+# Set the cmd to the input for cowsay
+CMD ["DevConf.CZ 2024!"]
