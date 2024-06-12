@@ -95,4 +95,4 @@ podman system prune --all
 # you'll be asked to confirm by typing 'y'
 ```
 
-![pacman screen shot](./screenshot.png)
+![pacman screen shot](./pacman-screenshot.png)
